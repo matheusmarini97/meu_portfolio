@@ -71,4 +71,3 @@ Atuar como **Engenheiro de Dados ou Backend Developer**, ajudando empresas a **o
 - **LinkedIn**: [www.linkedin.com/in/matheusmarini97](https://www.linkedin.com/in/matheusmarini97)  
 - **E-mail**: matheusmarini97@gmail.com  
 - **Telefone**: (44) 99830-3770  
-- **Cidade**: Maringá – PR  
