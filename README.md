@@ -36,7 +36,7 @@ Este repositório reúne meus **projetos práticos**, mostrando meu conhecimento
 - Automação do processo de criação, preenchimento e exportação dos certificados.  
 - Demonstração de **manipulação de arquivos, templates e automação de tarefas repetitivas**.  
 
-### 🔹 [Projetos de Pipelines e Orquestração com Airflow, Pentaho e Cron](#)  
+### 🔹 [Projetos de Pipelines e Orquestração com Airflow e Pentaho](#)  
 - Diversos projetos de **orquestração de workflows** e ETL com **Apache Airflow, Pentaho e Cron**.  
 - Automação de tarefas de **extração, transformação e carregamento de dados**.  
 - Exemplos de **agendamento, dependências e monitoramento de pipelines**.  
