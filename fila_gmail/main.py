@@ -1,17 +1,17 @@
 from multiprocessing import Process
 from database import SessionLocal
 from yagemail import send_email
+from dotenv import load_dotenv
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from model import FilaEmail
 from time import sleep
 import logging
 import sys
-from dotenv import load_dotenv
 
 load_dotenv()
 
-def log_instance():
+def log_instance() -> logging:
     logging.basicConfig(
         level=logging.INFO, 
         format="%(asctime)s [%(levelname)s] %(message)s", 
@@ -19,7 +19,7 @@ def log_instance():
     logger = logging.getLogger(__name__)
     return logger
 
-def envios_imediatos():
+def envios_imediatos() -> None:
     logger = log_instance()
     nao_enviar = False 
     while True:
@@ -42,7 +42,7 @@ def envios_imediatos():
             except:
                 session.rollback()
 
-def envios_agendados():
+def envios_agendados() -> None:
     logger = log_instance()
     nao_enviar = False 
     while True:

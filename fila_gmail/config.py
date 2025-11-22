@@ -1,7 +1,7 @@
 from urllib.parse import quote
 import os
 
-def connection_string():
+def connection_string() -> str:
     DB_PORT = os.getenv('DB_PORT')
     DB_USER = os.getenv('DB_USER')
     DB_HOST = os.getenv('DB_HOST')
