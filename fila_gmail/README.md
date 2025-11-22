@@ -46,7 +46,11 @@ Para configuração do banco de dados (MySQL):
 | `DB_USER` | Usuário do banco |
 | `DB_HOST` | Endereço do servidor do banco |
 | `DB_PASSWORD` | Senha do banco |
-| `DB_SCHEMA` | Nome do schema/banco |
+| `DB_SCHEMA` | Nome do schema/banco |  
+| `MAIL_USER` | Nome do usuario gmail |  
+| `MAIL_PASS` | Senha de aplicativo do gmail |  
+| `MAIL_MESSAGE_FROM` | Mensgem que vai no from |  
+| `TABLENAME` | Nome da tabela de emails do banco |  
 
 
 * * *
