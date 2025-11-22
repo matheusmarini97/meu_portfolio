@@ -1,4 +1,4 @@
-# Sistema de Envio de Emails - SEPSI
+# Sistema de Envio de Emails  
 
 ## Visão Geral
 
